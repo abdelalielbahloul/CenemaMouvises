@@ -1,0 +1,34 @@
+#homePage {
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    background: url(https://www.francetvinfo.fr/image/75npqyqpg-fd12/1200/450/20561239.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    /* opacity: .8; */
+}
+nav {
+    z-index: 1;
+    background: transparent !important;
+}
+.card {
+    margin-top: 15%;
+    border: 0;
+    background: transparent !important;
+}
+.card-title {
+    font-size: 3.125rem;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC107;
+}
+.card-text {
+    text-align: center;
+    /* font-weight: bold; */
+    color: black;
+}
