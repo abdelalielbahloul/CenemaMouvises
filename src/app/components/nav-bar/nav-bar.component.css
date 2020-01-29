@@ -8,16 +8,18 @@
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
+    /* position: absolute; */
     z-index: -1;
-    /* opacity: .8; */
+    /* opacity: 0; */
+    position: relative;
+    overflow: hidden;
 }
 nav {
     z-index: 1;
     background: transparent !important;
 }
 .card {
-    margin-top: 15%;
+    margin-top: 30%;
     border: 0;
     background: transparent !important;
 }
@@ -31,4 +33,10 @@ nav {
     text-align: center;
     /* font-weight: bold; */
     color: black;
+}
+
+div.form-group > p {
+  text-align: center;
+  font-weight: bold;
+  color: wheat;
 }
