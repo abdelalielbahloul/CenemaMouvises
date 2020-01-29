@@ -2,3 +2,10 @@
   color: black;
   font-weight: bolder;
 }
+
+img {
+  min-height: 234px !important;
+  max-height: 234px !important;
+  height: 100% !important;
+}
+
