@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, .7);
+    /* opacity: 1; */
 }
